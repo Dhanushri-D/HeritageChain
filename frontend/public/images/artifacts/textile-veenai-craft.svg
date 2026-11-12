@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Traditional Tamil Textiles, Thanjavur Veenai and Craft Tiles">
+  <defs>
+    <linearGradient id="craftStudio" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F3EA" />
+      <stop offset="100%" stop-color="#DFD5C2" />
+    </linearGradient>
+    <radialGradient id="jackwood" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#C96F32" />
+      <stop offset="65%" stop-color="#7D3B16" />
+      <stop offset="100%" stop-color="#451D08" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#craftStudio)" />
+
+  <!-- Toda Geometric Embroidery Band (Left) -->
+  <rect x="55" y="72" width="205" height="376" rx="8" fill="#FAF7F0" stroke="#C5B69F" stroke-width="2" />
+  <rect x="75" y="110" width="165" height="52" fill="#991B1B" />
+  <path d="M80,136 L100,115 L120,136 L140,115 L160,136 L180,115 L200,136 L220,115 L235,136" fill="none" stroke="#18181B" stroke-width="5" />
+  <rect x="75" y="190" width="165" height="44" fill="#18181B" />
+  <path d="M80,212 L105,194 L130,212 L155,194 L180,212 L205,194 L235,212" fill="none" stroke="#DC2626" stroke-width="4.5" />
+  <rect x="75" y="262" width="165" height="52" fill="#991B1B" />
+  <rect x="75" y="344" width="165" height="68" fill="#292524" opacity="0.14" />
+
+  <!-- Thanjavur Veenai (Center) -->
+  <g transform="rotate(-14 435 260)">
+    <circle cx="435" cy="360" r="88" fill="url(#jackwood)" stroke="#3B1806" stroke-width="3" />
+    <circle cx="435" cy="360" r="44" fill="none" stroke="#EA9940" stroke-width="2.5" />
+    <rect x="422" y="105" width="26" height="190" rx="6" fill="url(#jackwood)" stroke="#3B1806" stroke-width="2" />
+    <circle cx="385" cy="148" r="36" fill="#D97706" stroke="#78350F" stroke-width="2.5" />
+    <path d="M422,108 Q410,68 455,65 Q475,78 448,108" fill="#EA9940" stroke="#78350F" stroke-width="2" />
+    <line x1="430" y1="110" x2="430" y2="395" stroke="#FDE68A" stroke-width="1.2" />
+    <line x1="435" y1="110" x2="435" y2="395" stroke="#FDE68A" stroke-width="1.2" />
+    <line x1="440" y1="110" x2="440" y2="395" stroke="#FDE68A" stroke-width="1.2" />
+  </g>
+
+  <!-- Athangudi Floral Tiles (Right) -->
+  <g transform="translate(555, 86)">
+    <rect x="0" y="0" width="185" height="185" rx="6" fill="#1D4E56" stroke="#0F2C31" stroke-width="3" />
+    <circle cx="92.5" cy="92.5" r="64" fill="#ECE7DC" />
+    <path d="M92.5,35 L112,73 L150,92.5 L112,112 L92.5,150 L73,112 L35,92.5 L73,73 Z" fill="#C2410C" />
+    <circle cx="92.5" cy="92.5" r="22" fill="#EA9940" />
+
+    <rect x="0" y="205" width="185" height="145" rx="6" fill="#C59B5F" stroke="#7C5C31" stroke-width="2" />
+    <line x1="0" y1="228" x2="185" y2="228" stroke="#8C6B3B" stroke-width="2" />
+    <line x1="0" y1="254" x2="185" y2="254" stroke="#8C6B3B" stroke-width="2" />
+    <line x1="0" y1="280" x2="185" y2="280" stroke="#8C6B3B" stroke-width="2" />
+    <line x1="0" y1="306" x2="185" y2="306" stroke="#8C6B3B" stroke-width="2" />
+    <line x1="0" y1="332" x2="185" y2="332" stroke="#8C6B3B" stroke-width="2" />
+  </g>
+</svg>
+

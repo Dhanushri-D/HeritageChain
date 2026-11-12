@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Adichanallur Terracotta Burial Urns">
+  <defs>
+    <linearGradient id="galleryWall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ECE7DC" />
+      <stop offset="70%" stop-color="#DDD4C3" />
+      <stop offset="100%" stop-color="#C8BAA2" />
+    </linearGradient>
+    <radialGradient id="urnBody" cx="38%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#D97040" />
+      <stop offset="45%" stop-color="#A64622" />
+      <stop offset="85%" stop-color="#5B2412" />
+      <stop offset="100%" stop-color="#29120A" />
+    </radialGradient>
+    <linearGradient id="blackRim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E1B1A" />
+      <stop offset="45%" stop-color="#4A413D" />
+      <stop offset="100%" stop-color="#141211" />
+    </linearGradient>
+    <linearGradient id="plinth" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5F2EB" />
+      <stop offset="100%" stop-color="#D3C8B5" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="520" fill="url(#galleryWall)" />
+  <rect x="60" y="388" width="680" height="132" fill="url(#plinth)" stroke="#BBAE99" stroke-width="2" />
+  <ellipse cx="400" cy="410" rx="220" ry="26" fill="#2A1C15" opacity="0.22" />
+
+  <!-- Large Pyriform Burial Urn (Muthumakkal Thaazhi) -->
+  <path d="M292,155 C235,205 225,295 270,355 C304,398 355,412 378,412 C401,412 452,398 486,355 C531,295 521,205 464,155 Z" fill="url(#urnBody)" stroke="#4A1D0D" stroke-width="2.5" />
+  <!-- Ribbed Collar & Black-and-Red Transition -->
+  <path d="M276,178 Q378,202 480,178" fill="none" stroke="#361409" stroke-width="5" opacity="0.55" />
+  <path d="M250,235 Q378,262 506,235" fill="none" stroke="#F0A57C" stroke-width="2" opacity="0.32" />
+  <ellipse cx="378" cy="148" rx="92" ry="24" fill="url(#blackRim)" stroke="#6B5C55" stroke-width="2" />
+  <ellipse cx="378" cy="146" rx="68" ry="15" fill="#120E0D" />
+  <path d="M288,155 Q378,180 468,155" fill="none" stroke="#EA9940" stroke-width="2.5" opacity="0.55" />
+
+  <!-- Accompanying Grave Pottery Bowls -->
+  <ellipse cx="565" cy="404" rx="54" ry="10" fill="#2A1C15" opacity="0.24" />
+  <path d="M518,325 C508,358 525,392 565,396 C605,392 622,358 612,325 Z" fill="url(#urnBody)" />
+  <ellipse cx="565" cy="324" rx="48" ry="13" fill="url(#blackRim)" />
+  <ellipse cx="565" cy="323" rx="34" ry="8" fill="#14100F" />
+
+  <ellipse cx="215" cy="405" rx="44" ry="9" fill="#2A1C15" opacity="0.22" />
+  <path d="M178,342 C172,370 188,396 215,398 C242,396 258,370 252,342 Z" fill="url(#blackRim)" />
+  <ellipse cx="215" cy="341" rx="38" ry="10" fill="#3D3430" stroke="#7A6C64" stroke-width="1.5" />
+</svg>
+

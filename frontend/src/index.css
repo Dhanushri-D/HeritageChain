@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy-deep: #12212E;
+    --teal-main: #307082;
+    --teal-soft: #6CA3A2;
+    --cream-bg: #ECE7DC;
+    --accent-gold: #EA9940;
+  }
+
+  body {
+    background-color: #F8F9FA;
+    color: #12212E;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #ECE7DC;
+}
+::-webkit-scrollbar-thumb {
+  background: #307082;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #12212E;
+}
+
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+/* Shimmer animation for simulated AI & skeleton loaders */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, rgba(234,153,64,0.08) 0%, rgba(234,153,64,0.22) 50%, rgba(234,153,64,0.08) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* Leaflet Map Height Fixes */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+  z-index: 10;
+}
+
+/* Custom Heritage Marker Styling */
+.heritage-div-icon {
+  background: transparent;
+  border: none;
+}

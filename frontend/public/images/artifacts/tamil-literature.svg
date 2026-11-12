@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Classical Tamil Literary Work Folio">
+  <defs>
+    <linearGradient id="archiveCloth" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2C3B" />
+      <stop offset="100%" stop-color="#111A24" />
+    </linearGradient>
+    <linearGradient id="folioPage" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F7F1E1" />
+      <stop offset="92%" stop-color="#EDE2C8" />
+      <stop offset="100%" stop-color="#CBB994" />
+    </linearGradient>
+    <linearGradient id="folioPageRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CBB994" />
+      <stop offset="8%" stop-color="#EDE2C8" />
+      <stop offset="100%" stop-color="#F7F1E1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#archiveCloth)" />
+  <!-- Crimson & Gold Hardcover Backing -->
+  <rect x="95" y="75" width="610" height="370" rx="12" fill="#6F1D1B" stroke="#EA9940" stroke-width="3" />
+  <!-- Left Open Page -->
+  <path d="M120,95 L400,110 L400,425 L120,415 Z" fill="url(#folioPage)" />
+  <!-- Right Open Page -->
+  <path d="M400,110 L680,95 L680,415 L400,425 Z" fill="url(#folioPageRight)" />
+
+  <!-- Decorative Ornamental Borders -->
+  <rect x="145" y="128" width="225" height="260" fill="none" stroke="#EA9940" stroke-width="2" opacity="0.7" />
+  <rect x="430" y="128" width="225" height="260" fill="none" stroke="#307082" stroke-width="2" opacity="0.7" />
+
+  <!-- Classic Couplet / Poem Line Typography Lines -->
+  <g stroke="#1E293B" stroke-width="3" stroke-linecap="round" opacity="0.65">
+    <line x1="172" y1="168" x2="342" y2="168" />
+    <line x1="172" y1="192" x2="322" y2="192" />
+    <line x1="172" y1="226" x2="342" y2="226" />
+    <line x1="172" y1="250" x2="310" y2="250" />
+    <line x1="172" y1="284" x2="342" y2="284" />
+    <line x1="172" y1="308" x2="328" y2="308" />
+
+    <line x1="458" y1="168" x2="628" y2="168" />
+    <line x1="458" y1="192" x2="608" y2="192" />
+    <line x1="458" y1="226" x2="628" y2="226" />
+    <line x1="458" y1="250" x2="598" y2="250" />
+    <line x1="458" y1="284" x2="628" y2="284" />
+    <line x1="458" y1="308" x2="612" y2="308" />
+  </g>
+  <!-- Center Spine Crease -->
+  <line x1="400" y1="108" x2="400" y2="425" stroke="#5A4632" stroke-width="3" />
+</svg>
+

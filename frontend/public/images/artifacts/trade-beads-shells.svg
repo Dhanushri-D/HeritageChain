@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Carnelian Beads, Trade Beads and Shell Ornaments">
+  <defs>
+    <linearGradient id="linen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F4EC" />
+      <stop offset="100%" stop-color="#E2DAC8" />
+    </linearGradient>
+    <radialGradient id="carnelian" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#FFA970" />
+      <stop offset="50%" stop-color="#DC4E1C" />
+      <stop offset="100%" stop-color="#7B220A" />
+    </radialGradient>
+    <radialGradient id="glassBead" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#7DD3FC" />
+      <stop offset="55%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0C4A6E" />
+    </radialGradient>
+    <linearGradient id="shellWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="65%" stop-color="#EBE5D8" />
+      <stop offset="100%" stop-color="#C8BCA8" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#linen)" />
+  <!-- Bead Necklace Arc -->
+  <path d="M140,145 Q400,455 660,145" fill="none" stroke="#8C7051" stroke-width="3" />
+  <g stroke="#521605" stroke-width="1">
+    <circle cx="155" cy="162" r="14" fill="url(#carnelian)" />
+    <circle cx="190" cy="202" r="16" fill="url(#glassBead)" />
+    <ellipse cx="234" cy="240" rx="22" ry="15" transform="rotate(36 234 240)" fill="url(#carnelian)" />
+    <circle cx="282" cy="272" r="17" fill="#3B2314" stroke="#FFFFFF" stroke-width="2" />
+    <ellipse cx="338" cy="296" rx="24" ry="16" transform="rotate(14 338 296)" fill="url(#carnelian)" />
+    <circle cx="400" cy="304" r="24" fill="url(#carnelian)" />
+    <ellipse cx="462" cy="296" rx="24" ry="16" transform="rotate(-14 462 296)" fill="url(#carnelian)" />
+    <circle cx="518" cy="272" r="17" fill="url(#glassBead)" />
+    <ellipse cx="566" cy="240" rx="22" ry="15" transform="rotate(-36 566 240)" fill="url(#carnelian)" />
+    <circle cx="610" cy="202" r="16" fill="#3B2314" stroke="#FFFFFF" stroke-width="2" />
+    <circle cx="645" cy="162" r="14" fill="url(#carnelian)" />
+  </g>
+  <!-- Carved Conch Shell Bangles -->
+  <g transform="translate(400, 140)">
+    <ellipse cx="-68" cy="0" rx="68" ry="44" fill="none" stroke="url(#shellWhite)" stroke-width="18" />
+    <ellipse cx="-68" cy="0" rx="68" ry="44" fill="none" stroke="#A69882" stroke-width="1.5" />
+    <ellipse cx="68" cy="8" rx="68" ry="44" fill="none" stroke="url(#shellWhite)" stroke-width="18" />
+    <ellipse cx="68" cy="8" rx="68" ry="44" fill="none" stroke="#A69882" stroke-width="1.5" />
+  </g>
+</svg>
+

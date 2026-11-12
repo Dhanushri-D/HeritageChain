@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Ancient Stone Tools and Terracotta Objects">
+  <defs>
+    <linearGradient id="creamCase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6F2EA" />
+      <stop offset="100%" stop-color="#DDD5C5" />
+    </linearGradient>
+    <radialGradient id="quartzite" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#B9AC98" />
+      <stop offset="60%" stop-color="#7C705F" />
+      <stop offset="100%" stop-color="#4A4236" />
+    </radialGradient>
+    <radialGradient id="terracotta" cx="40%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#DE7D4F" />
+      <stop offset="70%" stop-color="#9E4521" />
+      <stop offset="100%" stop-color="#59220D" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#creamCase)" />
+  <ellipse cx="265" cy="382" rx="120" ry="20" fill="#1F1912" opacity="0.2" />
+  <ellipse cx="535" cy="384" rx="110" ry="20" fill="#1F1912" opacity="0.2" />
+
+  <!-- Acheulian Quartzite Handaxe -->
+  <path d="M265,98 C312,155 348,245 342,312 C338,358 302,374 265,374 C228,374 192,358 188,312 C182,245 218,155 265,98 Z" fill="url(#quartzite)" stroke="#3D362B" stroke-width="2.5" />
+  <path d="M265,105 L245,195 L278,245 L242,315 L265,370" fill="none" stroke="#D9CEBC" stroke-width="1.8" opacity="0.7" />
+  <path d="M225,215 L292,190 M205,280 L322,265 M220,335 L302,328" fill="none" stroke="#362F24" stroke-width="1.5" opacity="0.5" />
+
+  <!-- Terracotta Figurine & Seal Dish -->
+  <path d="M495,180 C475,180 462,198 468,220 L488,245 L465,340 L488,365 L582,365 L605,340 L582,245 L602,220 C608,198 595,180 575,180 Z" fill="url(#terracotta)" stroke="#4C1E0B" stroke-width="2" />
+  <circle cx="535" cy="148" r="32" fill="url(#terracotta)" stroke="#4C1E0B" stroke-width="2" />
+  <path d="M518,140 Q535,128 552,140" fill="none" stroke="#F8C7A8" stroke-width="2.2" />
+  <circle cx="523" cy="146" r="3" fill="#2A1208" />
+  <circle cx="547" cy="146" r="3" fill="#2A1208" />
+  <path d="M500,260 Q535,280 570,260" fill="none" stroke="#F6B895" stroke-width="2.5" />
+</svg>
+
